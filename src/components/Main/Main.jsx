@@ -13,8 +13,10 @@ const Main = () => {
 
     return (
         <Card className={classes.root}>
-            <CardHeader title="Expense Tracker" />
+            <CardHeader title="Ask Money" style={{ color: '#3993DD' }} />
             <CardContent>
+                <Typography align='center' variant='h4' style={{ marginBottom: '20px', color: '#FF499E', fontWeight: 'bold' }} >Expense Tracker</Typography>
+
                 <Typography align='center' variant='h5' >Total Balance ${balance}</Typography>
                 <Typography variant='subtitle1' style={{ lineHeight: '1.5em', marginTop: '20px' }} >
                    <InfoCard/>
